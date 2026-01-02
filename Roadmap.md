@@ -91,8 +91,8 @@ Repository này ghi lại hành trình của tôi từ một sinh viên Công ng
 
 ---
 
-## 🗃️ Tài nguyên & Ghi chú
-* **Cấu trúc Repo:**
+ 🗃️ Tài nguyên & Ghi chú
+ Cấu trúc Repo:
 My_own_path/
 │
 ├── .github/                   # (Nâng cao) Cấu hình GitHub Actions để tự động kiểm tra code
@@ -147,4 +147,4 @@ My_own_path/
     ├── vocabulary/            # Từ vựng chuyên ngành (Anh-Việt)
     └── cheat-sheets/          # Các lệnh Linux, Lean syntax hay quên
 
-* **Châm ngôn:** *"Đừng chỉ sửa lỗi, hãy chứng minh chúng không tồn tại."*
+Châm ngôn:"Đừng chỉ sửa lỗi, hãy chứng minh chúng không tồn tại."
