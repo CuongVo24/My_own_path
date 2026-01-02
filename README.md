@@ -1,147 +1,110 @@
-# 🛡️ Lộ trình Kỹ sư An toàn thông tin & Kiểm chứng hình thức (Formal Verification)
-> **Mục tiêu:** Kỹ sư Bảo mật / Kỹ sư Kiểm chứng hình thức (Thị trường Global)
+# 🛡️ Lộ trình Kỹ sư Bảo mật & Kiểm chứng hình thức (Formal Verification) v2.0
+> **Mục tiêu:** Kỹ sư Bảo mật Hệ thống / Smart Contract Auditor (Global/Remote)
+> **Chiến lược:** "Blue Ocean" - Đi vào ngách khó, ít cạnh tranh, rào cản kỹ thuật cao.
 > **Thời gian:** T1/2026 - T6/2028
-> **Trạng thái:** 🟢 Đang thực hiện
+> **Trạng thái:** 🟢 Giai đoạn 1: Khởi động & Vượt khó
 
 ## 📖 Giới thiệu
-Repository này ghi lại hành trình của tôi từ một sinh viên Công nghệ thông tin tại **HCMUS** đến khi trở thành một **Kỹ sư Bảo mật** chuyên về **Kiểm chứng hình thức (Formal Verification)**. Lộ trình này kết hợp nền tảng học thuật tại trường với các công nghệ mũi nhọn như Lean 4, Rust và Bảo mật Blockchain.
+Hành trình từ sinh viên **HCMUS** trở thành **Kỹ sư Bảo mật (Verification Focused)**.
+Lộ trình này không tập trung vào việc tạo ra phần mềm nhanh (Product), mà tập trung vào việc tạo ra phần mềm **không thể sai** (Correctness) bằng cách kết hợp:
+1.  **Rust:** Ngôn ngữ an toàn bộ nhớ (Memory Safety).
+2.  **Lean 4:** Ngôn ngữ chứng minh toán học (Formal Proof).
+3.  **Security Mindset:** Tư duy phản biện và tấn công.
 
 ---
 
-## 🗺️ Lộ trình & Tiến độ
+## 🗺️ Lộ trình Chi tiết
 
-### 🚩 Giai đoạn 1: Xây nền tảng & Chuyển đổi tư duy
-**Thời gian:** Năm 2, Học kỳ 2 (T2/2026 - T6/2026)
-**Trọng tâm:** Cú pháp Lean, Hệ thống Linux, Lý thuyết tập hợp.
-
-| Mảng | Hoạt động & Mục tiêu chính | Trạng thái |
-
-| **🏛️ HCMUS** | **Hệ điều hành (OS):** <br> - [ ] Hiểu rõ Heap/Stack, Phân quyền, Race Conditions.<br> - [ ] *Tư duy:* Làm sao để chứng minh hệ thống không bị Deadlock? | ⬜ |
-| **🏛️ HCMUS** | **Mạng máy tính:** <br> - [ ] Nắm vững mô hình OSI, TCP/IP, Wireshark.<br> - [ ] *Tư duy:* Khái niệm về Kiểm chứng giao thức (Protocol Verification). | ⬜ |
-| **🏛️ HCMUS** | **Cơ sở dữ liệu:** <br> - [ ] Đại số quan hệ (Liên hệ với Lý thuyết tập hợp trong Lean). | ⬜ |
-| **🏠 Tự học** | **Lean 4:** <br> - [ ] Hoàn thành "The Natural Number Game" (bản Lean 4).<br> - [ ] Đọc "Theorem Proving in Lean 4" (Các chương Logic & Proof). | ⬜ |
-| **🏠 Tự học** | **InfoSec:** <br> - [ ] Thành thạo Linux Command Line (Ubuntu/Kali).<br> - [ ] PicoCTF: Các kỹ năng cơ bản & giải CTF nhập môn. | ⬜ |
-
----
-
-### 🚀 Giai đoạn 2: Tăng tốc & Mật mã học
-**Thời gian:** Hè năm 2 (T6/2026 - T8/2026)
-**Trọng tâm:** Rust Ownership, Mathlib, Cơ bản về Mật mã.
-
-#### 🦀 Rust (Bước đệm về An toàn bộ nhớ)
-- [ ] **Học Rust:** Tập trung vào Ownership & Borrowing (Tư duy Memory Safety).
-- [ ] **Dự án:** Viết tool CLI mã hóa/giải mã file đơn giản bằng Rust.
-
-#### 📐 Lean & Toán học
-- [ ] **Khám phá Mathlib:** Tìm hiểu cấu trúc thư viện toán học của Lean.
-- [ ] **Thực hành:** Chứng minh các định lý đơn giản (Cauchy-Schwarz, Số nguyên tố).
-
----
-
-### ⚔️ Giai đoạn 3: Chuyên sâu & Hội tụ
-**Thời gian:** Năm 3, Học kỳ 1 (T9/2026 - T1/2027)
-**Trọng tâm:** Mật mã học, Lý thuyết đồ thị, Formal Verification.
+### 🚩 Giai đoạn 1: Xây nền tảng Logic & "Cú sốc" Rust
+**Thời gian:** Năm 2, Học kỳ 2 (T1/2026 - T6/2026)
+**Trọng tâm:** Logic mệnh đề, Rust Ownership, Tư duy hệ thống.
 
 | Mảng | Hoạt động & Mục tiêu chính | Trạng thái |
 | :--- | :--- | :---: |
-| **🏛️ HCMUS** | **Nhập môn ATTT:** <br> - [ ] Nắm vững bộ ba CIA (Confidentiality, Integrity, Availability). | ⬜ |
-| **🏛️ HCMUS** | **Mật mã học (Môn Vàng):** <br> - [ ] Ánh xạ RSA/Elliptic Curves với các Cấu trúc đại số trong Mathlib. | ⬜ |
-| **🏛️ HCMUS** | **Lý thuyết đồ thị:** <br> - [ ] Cài đặt các định lý đồ thị bằng Lean (thay vì Python). | ⬜ |
-| **🏠 Tự học** | **Formal Verification:** <br> - [ ] Đọc cuốn "Software Foundations" (phiên bản Lean/Coq). | ⬜ |
-| **🏠 Tự học** | **Cộng đồng:** <br> - [ ] Tham gia & đặt câu hỏi trên Lean Zulip Chat. | ⬜ |
+| **🏛️ HCMUS** | **Hệ điều hành (OS):** <br> - [ ] Ánh xạ khái niệm Stack/Heap, Race Conditions sang Rust.<br> - [ ] *Câu hỏi:* Tại sao C++ cho phép lỗi này còn Rust thì không? | ⬜ |
+| **🏛️ HCMUS** | **Lý thuyết đồ thị:** <br> - [ ] Nắm vững thuật toán (Dijkstra, BFS/DFS).<br> - [ ] *Tư duy:* Các tính chất bất biến (invariants) của đồ thị là gì? | ⬜ |
+| **🏠 Tự học** | **Tư duy Logic (Tiền đề cho Lean):** <br> - [ ] Học kỹ **Propositional Logic** (Mệnh đề) & **First-order Logic** (Vị từ).<br> - [ ] *Tài liệu:* Giáo trình Toán rời rạc hoặc Logic for CS. | ⬜ |
+| **🏠 Tự học** | **Rust (Hard Mode):** <br> - [ ] Đọc "The Rust Programming Language" (Chương 1-6).<br> - [ ] **Hiểu sâu:** Ownership, Borrowing, Lifetimes (Sống sót qua compiler). | ⬜ |
+| **🏠 Tự học** | **Lean 4 (Nhập môn):** <br> - [ ] Hoàn thành **"The Natural Number Game"** (Lean 4 version).<br> - [ ] Mục tiêu: Hiểu cảm giác "Gamification" của việc chứng minh. | ⬜ |
+| **🌐 Cộng đồng** | **Chiến thuật "Lurker":** <br> - [ ] Join Discord: **Rust Vietnam**, **Code4rena**.<br> - [ ] *Nhiệm vụ:* Đọc tin nhắn, không chat, xem cách họ tìm bug. | ⬜ |
 
 ---
 
-### 💎 Giai đoạn 4: Thực chiến & Đóng góp (Contributor)
+### 🚀 Giai đoạn 2: Tăng tốc & Kết nối (The Bridge)
+**Thời gian:** Hè năm 2 (T6/2026 - T8/2026)
+**Trọng tâm:** Kết nối Toán (Lean) vào Code (Software).
+
+#### 🦀 Rust System Programming
+- [ ] **Re-write Project:** Viết lại một bài tập lớn môn Cấu trúc dữ liệu (VD: Linked List) bằng Rust.
+- [ ] *Mục tiêu:* Hiểu tại sao Linked List trong Rust là "địa ngục" (và học cách dùng `Box`, `Rc`, `RefCell`).
+
+#### 📐 Program Verification (Thay vì Pure Math)
+- [ ] **Functional Programming:** Học cách tư duy phi trạng thái (Stateless).
+- [ ] **Verification Project:** Sử dụng Lean 4 để chứng minh tính đúng đắn của một hàm đơn giản (VD: Hàm tính tổng, Hàm đảo ngược chuỗi).
+- [ ] *Tài liệu:* "Software Foundations" (Vol 1 - Logical Foundations).
+
+---
+
+### ⚔️ Giai đoạn 3: Chuyên sâu Bảo mật (Security Core)
+**Thời gian:** Năm 3, Học kỳ 1 (T9/2026 - T1/2027)
+**Trọng tâm:** Mật mã học, Smart Contracts, Audit.
+
+| Mảng | Hoạt động & Mục tiêu chính | Trạng thái |
+| :--- | :--- | :---: |
+| **🏛️ HCMUS** | **Mật mã học:** <br> - [ ] Hiểu sâu RSA, Elliptic Curves, Zero Knowledge Proofs (cơ bản). | ⬜ |
+| **🏠 Tự học** | **Blockchain Security:** <br> - [ ] Học Solidity & EVM Architecture.<br> - [ ] Phân tích các lỗi kinh điển: Re-entrancy, Overflow, Logic Errors. | ⬜ |
+| **🏠 Tự học** | **Rust Verification Tools:** <br> - [ ] Tìm hiểu **Verus** hoặc **Kani** (Công cụ verify code Rust trực tiếp).<br> - [ ] *Lý do:* Đây là thứ các công ty như AWS/Meta đang dùng. | ⬜ |
+| **💰 Thực chiến** | **Săn lỗi (Bug Bounty):** <br> - [ ] Thử sức giải các bài CTF cũ của Paradigm hoặc Ethernaut.<br> - [ ] Đọc các báo cáo Audit trên Code4rena (Hiểu cách viết report). | ⬜ |
+
+---
+
+### 💎 Giai đoạn 4: Portfolio & Thực chiến (Proof of Work)
 **Thời gian:** Năm 3, Học kỳ 2 (T2/2027 - T6/2027)
-**Trọng tâm:** **Đóng góp Mathlib**, Smart Contracts, Trình biên dịch.
+**Trọng tâm:** Xây dựng sản phẩm để "bán" bản thân.
 
-#### 🏆 Nhiệm vụ tối thượng: The Mathlib PR
-- [ ] **Mục tiêu:** Có ít nhất 1 Pull Request (PR) được merge vào thư viện `mathlib4` (Điểm nhấn quan trọng nhất cho CV).
+#### 🏆 Nhiệm vụ tối thượng: The Verified Project
+*(Thay thế cho Mathlib PR - Thực tế hơn)*
+- [ ] **Project:** Xây dựng một Library nhỏ bằng Rust (VD: Token standard, Voting system) và **Chứng minh nó an toàn** (bằng Lean hoặc Verus).
+- [ ] **Output:** Một Repo Github với badge `Verified`, tài liệu chứng minh rõ ràng. Đây là "vé tuyển thẳng" vào phỏng vấn.
 
-#### 🛠️ Kỹ năng kỹ thuật
-- [ ] **Smart Contract Security:** Học Solidity, đọc báo cáo audit (Verichains, Trail of Bits).
-- [ ] **Mô hình hóa EVM:** Tìm hiểu cách mô hình hóa Ethereum Virtual Machine trong Lean.
-- [ ] **Trình biên dịch (HCMUS):** Hiểu về AST & Parsing (Cách Lean dịch code).
-- [ ] **Phát triển ứng dụng (HCMUS):** Hiểu cấu trúc phần mềm để nhận diện các điểm dễ sinh lỗi (bug).
+#### 🛠️ Kỹ năng bổ trợ
+- [ ] **English:** Đọc/Viết tài liệu kỹ thuật trôi chảy (Bắt buộc cho Remote).
+- [ ] **CI/CD:** Thiết lập GitHub Actions để tự động chạy kiểm chứng mỗi khi push code.
 
 ---
 
-### 💼 Giai đoạn 5: Thực tập & Nghiên cứu
+### 💼 Giai đoạn 5: Gia nhập thị trường (The Entry)
 **Thời gian:** Hè năm 3 (T6/2027 - T8/2027)
-**Mục tiêu:** Kinh nghiệm làm việc chuyên nghiệp.
 
-- **Phương án A (Ưu tiên):** Remote Research Intern (Ethereum Foundation, Tezos, Global Labs).
-  - *Vũ khí:* Cái PR đã được merge vào Mathlib.
-- **Phương án B:** Các công ty bảo mật hàng đầu Việt Nam (VNG, VNPT, Viettel CS).
-  - *Vị trí:* Code Auditing / Security Research.
+- **Target:** Intern tại các công ty Blockchain Security (Verichains, audit firms) hoặc Protocol Labs.
+- **Vũ khí:** Repo "Verified Project" + Kiến thức Rust sâu + Tư duy Logic đã rèn luyện.
 
 ---
 
-### 🎓 Giai đoạn 6: Khóa luận & Ra trường
-**Thời gian:** Năm 4 (T9/2027 - T6/2028)
-**Mục tiêu:** Tốt nghiệp & Nhận Offer Global.
-
-#### 📜 Khóa luận tốt nghiệp (Vũ khí cuối cùng)
-- [ ] **Đề tài:** Kiểm chứng tính đúng đắn của Giao thức X / Công cụ phân tích Smart Contract.
-- [ ] **GVHD:** Tìm thầy cô bên Khoa học máy tính/CNPM nếu cần hướng dẫn nghiên cứu sâu.
-
-#### 🌍 Tìm việc (Job Hunt)
-- [ ] Ứng tuyển vị trí **Security Engineer / Formal Verification Engineer** trên toàn cầu.
-
----
-
-### 🗃️ Cấu trúc Repository (Repo Structure)
+### 🗃️ Cấu trúc Repository (Cập nhật)
 
 ```text
 My_own_path/
 │
-├── .github/                   # (Nâng cao) Cấu hình GitHub Actions
-│   └── workflows/             # Script CI/CD tự động build
+├── 01_basics_and_logic/       # GIAI ĐOẠN 1 (Nền tảng)
+│   ├── logic-notes/           # Ghi chép Propositional/First-order logic
+│   ├── rust-book-exercises/   # Bài tập The Rust Book
+│   └── lean-natural-number/   # Lời giải Natural Number Game
 │
-├── .gitignore                 # Loại bỏ file rác, file build, key bí mật
-├── README.md                  # File lộ trình tổng quan
-├── LICENSE                    # MIT License
+├── 02_systems_and_rust/       # GIAI ĐOẠN 2 (Hệ thống)
+│   ├── os-concepts-in-rust/   # Mô phỏng khái niệm OS bằng Rust
+│   └── data-structures-rust/  # Linked List, Tree (Safe & Unsafe)
 │
-├── 00_university_hcmus/       # Mọi thứ liên quan đến trường lớp
-│   ├── year2_sem2/
-│   │   ├── os-operating-systems/
-│   │   ├── networks/
-│   │   └── databases/
-│   ├── year3_sem1/
-│   │   ├── crypto/            
-│   │   └── graph-theory/      
-│   └── ... (các kỳ sau)
+├── 03_security_playground/    # GIAI ĐOẠN 3 (Bảo mật)
+│   ├── ethernaut-solutions/   # Giải bài tập hack Smart Contract
+│   ├── crypto-primitives/     # Cài đặt thuật toán mật mã
+│   └── code4rena-reports/     # Phân tích các lỗi tìm được từ C4
 │
-├── 01_formal_verification/    # TRÁI TIM CỦA REPO (Lean 4)
-│   ├── learn-lean4/
-│   │   ├── natural-number-game/
-│   │   └── tpil4-exercises/    
-│   ├── mathlib-experiments/    
-│   │   ├── algebra-structures/ 
-│   │   └── my-theorems/        
-│   └── projects/               
-│       └── graph-verification/ 
+├── 04_verified_software/      # GIAI ĐOẠN 4 (Sản phẩm để đời)
+│   ├── specs/                 # Đặc tả toán học (Specification)
+│   ├── src/                   # Source code (Rust/Solidity)
+│   └── proofs/                # Mã chứng minh (Lean/Verus)
 │
-├── 02_security_lab/           # Kỹ năng thực chiến InfoSec & Rust
-│   ├── ctf-training/
-│   │   ├── picoctf/           
-│   │   └── tools/             
-│   ├── rust-security/
-│   │   ├── learning-rust/     
-│   │   └── secure-cli-tool/   
-│   └── smart-contract/        
-│       ├── solidity-basics/
-│       └── audits/            
-│
-├── 03_research_thesis/        # Dành cho nghiên cứu chuyên sâu & Khóa luận
-│   ├── papers-review/         
-│   ├── mathlib-pr/            
-│   └── graduation-thesis/     
-│
-└── 99_knowledge_base/         # "Bộ não thứ hai" - Ghi chú tổng hợp
-    ├── daily-log.md           # Nhật ký học tập mỗi ngày
-    ├── vocabulary/            # Từ vựng chuyên ngành (Anh-Việt)
-    └── cheat-sheets/          # Các lệnh Linux, Lean syntax hay quên
-
-Châm ngôn:"Đừng chỉ sửa lỗi, hãy chứng minh chúng không tồn tại."
+└── 99_resources/
+    ├── networking.md          # Danh sách người/cộng đồng nên follow
+    └── interview-prep.md      # Các câu hỏi phỏng vấn Rust/Logic
