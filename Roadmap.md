@@ -91,59 +91,56 @@ Repository này ghi lại hành trình của tôi từ một sinh viên Công ng
 
 ---
 
- 🗃️ Tài nguyên & Ghi chú
- Cấu trúc Repo:
+### 🗃️ Cấu trúc Repository (Repo Structure)
+
+```text
 My_own_path/
 │
-├── .github/                   # (Nâng cao) Cấu hình GitHub Actions để tự động kiểm tra code
-│   └── workflows/             # Chứa script CI/CD (ví dụ: tự động build code Rust/Lean)
+├── .github/                   # (Nâng cao) Cấu hình GitHub Actions
+│   └── workflows/             # Script CI/CD tự động build
 │
-├── .gitignore                 # File quan trọng: Loại bỏ file rác, file build, key bí mật
-├── README.md                  # File lộ trình tổng quan (đã soạn ở trên)
-├── LICENSE                    # MIT License (cho thấy sự chuyên nghiệp về bản quyền)
+├── .gitignore                 # Loại bỏ file rác, file build, key bí mật
+├── README.md                  # File lộ trình tổng quan
+├── LICENSE                    # MIT License
 │
 ├── 00_university_hcmus/       # Mọi thứ liên quan đến trường lớp
 │   ├── year2_sem2/
 │   │   ├── os-operating-systems/
-│   │   │   ├── 
-│   │   │   └── 
 │   │   ├── networks/
-│   │   │   ├── 
-│   │   │   └── 
-│   │   └── 
+│   │   └── databases/
 │   ├── year3_sem1/
-│   │   ├── 
-│   │   └── 
+│   │   ├── crypto/            
+│   │   └── graph-theory/      
 │   └── ... (các kỳ sau)
 │
 ├── 01_formal_verification/    # TRÁI TIM CỦA REPO (Lean 4)
 │   ├── learn-lean4/
-│   │   ├── natural-number-game/# Lời giải các màn chơi
-│   │   └── tpil4-exercises/    # Bài tập từ sách Theorem Proving in Lean 4
-│   ├── mathlib-experiments/    # Nơi cậu "nghịch" Mathlib
-│   │   ├── algebra-structures/ # Thử định nghĩa nhóm, vành
-│   │   └── my-theorems/        # Các định lý nhỏ cậu tự chứng minh
-│   └── projects/               # Các dự án Lean lớn hơn
-│       └── graph-verification/ # Dự án: Chứng minh định lý đồ thị bằng Lean
+│   │   ├── natural-number-game/
+│   │   └── tpil4-exercises/    
+│   ├── mathlib-experiments/    
+│   │   ├── algebra-structures/ 
+│   │   └── my-theorems/        
+│   └── projects/               
+│       └── graph-verification/ 
 │
 ├── 02_security_lab/           # Kỹ năng thực chiến InfoSec & Rust
 │   ├── ctf-training/
-│   │   ├── picoctf/           # Writeups (lời giải) cho các bài đã giải
-│   │   └── tools/             # Các script python nhỏ để giải CTF
+│   │   ├── picoctf/           
+│   │   └── tools/             
 │   ├── rust-security/
-│   │   ├── learning-rust/     # Bài tập cú pháp, Ownership
-│   │   └── secure-cli-tool/   # Dự án: Tool mã hóa file (Giai đoạn 2)
-│   └── smart-contract/        # (Giai đoạn 4)
+│   │   ├── learning-rust/     
+│   │   └── secure-cli-tool/   
+│   └── smart-contract/        
 │       ├── solidity-basics/
-│       └── audits/            # Phân tích các lỗi trong contract mẫu
+│       └── audits/            
 │
 ├── 03_research_thesis/        # Dành cho nghiên cứu chuyên sâu & Khóa luận
-│   ├── papers-review/         # Ghi chú tóm tắt các paper đã đọc
-│   ├── mathlib-pr/            # Nháp code cho Pull Request vào Mathlib
-│   └── graduation-thesis/     # Tài liệu khóa luận (Năm 4)
+│   ├── papers-review/         
+│   ├── mathlib-pr/            
+│   └── graduation-thesis/     
 │
 └── 99_knowledge_base/         # "Bộ não thứ hai" - Ghi chú tổng hợp
-    ├── daily-log.md           # Nhật ký học tập mỗi ngày (Hôm nay học được gì?)
+    ├── daily-log.md           # Nhật ký học tập mỗi ngày
     ├── vocabulary/            # Từ vựng chuyên ngành (Anh-Việt)
     └── cheat-sheets/          # Các lệnh Linux, Lean syntax hay quên
 
