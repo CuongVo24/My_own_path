@@ -94,7 +94,7 @@ Tập trung vào **Bằng chứng năng lực**:
 - [ ] **Lịch trình:** Lúc này có thể quay lại Full-time (vì làm việc cũng là làm đồ án).
 
 #### 🏆 Về đích (T6/2028)
-- [ ] **Bảo vệ KLTN:** Lấy bằng Cử nhân/Kỹ sư.
+- [ ] **Bảo vệ KLTN:** Lấy bằng Cử nhân.
 - [ ] **Convert:** Ký hợp đồng Official (Full-time Employee). Deal lại lương dựa trên bằng cấp và 1 năm kinh nghiệm vừa qua.
 
 ---
