@@ -74,6 +74,54 @@ Tập trung vào **Bằng chứng năng lực**:
 
 ---
 
+### ⚔️ Giai đoạn 3: Săn lỗi & Portfolio (The Hunt)
+**Thời gian:** Năm 3, Học kỳ 1 (T9/2026 - T1/2027)
+**Mục tiêu:** Có Bug, có Rank, có Name trên CV.
+
+| Mảng | Hoạt động & KPI | Trạng thái |
+| :--- | :--- | :---: |
+| **💰 Code4rena / Sherlock** | **Thực chiến 100%:** <br> - [ ] Đọc hiểu 100% các High/Medium bug của contest cũ.<br> - [ ] Gửi ít nhất 1 report có chất lượng (dù bị duplicate). | ⬜ |
+| **🧪 Testing** | **Viết Invariant Test:** <br> - [ ] Dùng Foundry viết test tìm lỗi logic tự động cho các repo open source. | ⬜ |
+
+---
+
+### 💎 Giai đoạn 4: Đánh chiếm thị trường (Go-to-Market)
+**Thời gian:** Năm 3, Học kỳ 2 (T2/2027 - T8/2027)
+**Mục tiêu:** Có Offer Thực tập/Fresher tại Verichains/VNG/VCS.
+
+- [ ] **Build Portfolio:**
+    - Repo 1: "DeFi Hacks Reproduce" (Chứng minh hiểu Attack Vector).
+    - Repo 2: "Foundry Invariant Tests" (Chứng minh kỹ năng QA/Security).
+- [ ] **Apply & Interview:**
+    - Xin vào vị trí Intern hoặc Collaborator.
+    - *Lưu ý:* Deal thẳng thắn việc còn đi học vào năm tới.
+
+---
+
+### 🎓 Giai đoạn 5: Năm cuối & "Hạ cánh mềm" (The Soft Landing)
+**Thời gian:** Năm 4 (T9/2027 - T6/2028)
+**Mục tiêu:** Giữ ghế tại công ty + Bảo vệ Đồ án thành công + Lấy bằng Đại học.
+
+#### 📅 Học kỳ 1: Chiến thuật "Chân trong chân ngoài" (T9/2027 - T12/2027)
+> **Ưu tiên:** Trả sạch nợ môn. Giữ slot làm việc.
+- [ ] **Ở trường:** Đăng ký các môn cuối cùng. Tuyệt đối không để rớt môn (sẽ bị trễ tiến độ).
+- [ ] **Ở công ty:** Chuyển sang chế độ **Part-time** (20h/tuần).
+    - Cam kết với sếp: "Em cần xử lý nốt môn học để tập trung hoàn toàn cho công ty vào kỳ sau".
+    - Nhiệm vụ: Duy trì code, fix bug nhỏ, đừng nhận task lớn (epic) kẻo vỡ trận.
+
+#### 📅 Học kỳ 2: Chiến thuật "Đồ án kép" (T1/2028 - T5/2028)
+> **Ưu tiên:** Khóa luận tốt nghiệp (KLTN) chất lượng cao.
+- [ ] **Chọn đề tài:** Chọn chủ đề liên quan trực tiếp đến việc đang làm (để công đôi việc).
+    - *Gợi ý:* "Xây dựng công cụ Fuzzing Smart Contract bằng Rust" hoặc "Phân tích lỗ hổng Zero-Knowledge Proof".
+- [ ] **Tại công ty:** Xin phép Mentor/Lead dùng một phần kết quả nghiên cứu (không phải dữ liệu mật) để làm KLTN.
+- [ ] **Lịch trình:** Lúc này có thể quay lại Full-time (vì làm việc cũng là làm đồ án).
+
+#### 🏆 Về đích (T6/2028)
+- [ ] **Bảo vệ KLTN:** Lấy bằng Cử nhân/Kỹ sư.
+- [ ] **Convert:** Ký hợp đồng Official (Full-time Employee). Deal lại lương dựa trên bằng cấp và 1 năm kinh nghiệm vừa qua.
+
+---
+
 ### 🗃️ Cấu trúc Repository (Tối ưu hóa)
 
 ```text
@@ -94,6 +142,12 @@ My_Sec_Path/
 ├── 03_tooling/                # CÔNG CỤ HỖ TRỢ (Rust/Script)
 │   ├── onchain-scripts/       # Script Python/Rust để query data blockchain
 │   └── slither-plugins/       # (Nếu rảnh) Viết plugin đơn giản cho Slither
+│
+└── 04_graduation_thesis/      # DÀNH CHO NĂM 4
+│   ├── proposal.md            # Đề cương khóa luận (Viết từ đầu năm 4)
+│   ├── research-papers/       # Các bài báo khoa học tham khảo
+│   ├── thesis-codebase/       # Source code của đồ án (Có thể là Fork của Tooling)
+│   └── slide-defense/         # Slide bảo vệ tốt nghiệp
 │
 └── 99_job_hunt/
     ├── target-companies.md    # Danh sách công ty & Tech stack của họ
