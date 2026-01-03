@@ -72,29 +72,6 @@ Tập trung vào **Bằng chứng năng lực**:
 - **VNG/ZaloPay:** Nhấn mạnh nền tảng System (Linux/Network) và khả năng code Test.
 - **VCS:** Nhấn mạnh khả năng Research và Pwn basics.
 
----
-
-### ⚔️ Giai đoạn 3: Săn lỗi & Portfolio (The Hunt)
-**Thời gian:** Năm 3, Học kỳ 1 (T9/2026 - T1/2027)
-**Mục tiêu:** Có Bug, có Rank, có Name trên CV.
-
-| Mảng | Hoạt động & KPI | Trạng thái |
-| :--- | :--- | :---: |
-| **💰 Code4rena / Sherlock** | **Thực chiến 100%:** <br> - [ ] Đọc hiểu 100% các High/Medium bug của contest cũ.<br> - [ ] Gửi ít nhất 1 report có chất lượng (dù bị duplicate). | ⬜ |
-| **🧪 Testing** | **Viết Invariant Test:** <br> - [ ] Dùng Foundry viết test tìm lỗi logic tự động cho các repo open source. | ⬜ |
-
----
-
-### 💎 Giai đoạn 4: Đánh chiếm thị trường (Go-to-Market)
-**Thời gian:** Năm 3, Học kỳ 2 (T2/2027 - T8/2027)
-**Mục tiêu:** Có Offer Thực tập/Fresher tại Verichains/VNG/VCS.
-
-- [ ] **Build Portfolio:**
-    - Repo 1: "DeFi Hacks Reproduce" (Chứng minh hiểu Attack Vector).
-    - Repo 2: "Foundry Invariant Tests" (Chứng minh kỹ năng QA/Security).
-- [ ] **Apply & Interview:**
-    - Xin vào vị trí Intern hoặc Collaborator.
-    - *Lưu ý:* Deal thẳng thắn việc còn đi học vào năm tới.
 
 ---
 
